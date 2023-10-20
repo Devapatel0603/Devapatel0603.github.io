@@ -16,6 +16,14 @@
   --main-color: #0ef;
 }
 
+/* :root{
+  --bg-color: #0B0C10;
+  --second-bg-color: #1F2833;
+  --text-color: #c5c6c7;
+  --main-color: #9575cd;
+}  */
+
+
 html{
   font-size: 62.5%;
   overflow-x: hidden;
@@ -29,6 +37,26 @@ body{
 section{
   min-height: 100vh;
   padding: 10rem 9% 2rem;
+}
+
+.home{
+  min-height: auto;
+}
+
+.projects{
+  min-height: auto;
+}
+
+.about{
+  min-height: auto;
+}
+
+.skills{
+  min-height: auto;
+}
+
+.contacts{
+  min-height: auto;
 }
 
 /* <----------------------Navbar----------------------------> */
@@ -110,6 +138,10 @@ span{
   align-items: center;
 }
 
+.smedia{
+  text-align: center;
+}
+
 .smedia a{
   display: inline-flex;
   justify-content: center;
@@ -175,7 +207,7 @@ span{
   font-size: 1.7rem;
   line-height: 2.1rem;
   letter-spacing: .7px;
-  margin: 2rem 0 3rem;
+  margin: 3rem 0 5rem;
   text-align: justify;
 }
 
@@ -391,6 +423,11 @@ span{
   #menu-icon{
     display: block;
   }
+
+  .smedia{
+    text-align: center;
+  }
+
   .navbar{
     position: absolute;
     top: 100%;
@@ -493,6 +530,10 @@ span{
     
   }
 
+  .smedia{
+    text-align: center;
+  }
+
   .about-right h2{
     text-align: center;
   }
@@ -574,6 +615,10 @@ span{
     line-height: 3.3rem;
   }
 
+  .smedia{
+    text-align: center;
+  }
+
   .allskill{
     padding-top: 5rem;
   }
@@ -612,6 +657,10 @@ span{
     min-height: auto;
   }
 
+  .smedia{
+    text-align: center;
+  }
+
   .about{
     min-height: auto;
   }
@@ -634,11 +683,19 @@ span{
   .contacts form .details input{
     width: 100%;
   }
+
+  .smedia{
+    text-align: center;
+  }
 }
 
 @media (max-width: 365px){
   .home-left img{
     width: 90vw;
+  }
+
+  .smedia{
+    text-align: center;
   }
 
   .about-left img{
