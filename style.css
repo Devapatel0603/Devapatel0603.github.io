@@ -41,6 +41,7 @@ section{
 
 .home{
   min-height: auto;
+  /* background-color: var(--second-bg-color); */
 }
 
 .projects{
