@@ -196,6 +196,7 @@ span{
 .heading{
   text-align: center;
   font-size: 4.5rem;
+  /* padding-top: 2vmin; */
 }
 
 .about-right h2{
@@ -257,7 +258,12 @@ span{
 
 .project img{
   width: 100%;
+  /* width: 50vw; */
   transition: .5s ease;
+}
+
+.project{
+  /* min-width: auto; */
 }
 
 .project:hover img{
@@ -266,7 +272,7 @@ span{
 
 .allproject{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(2,1fr);
   align-items: center;
   gap: 5rem;
 }
@@ -293,6 +299,7 @@ span{
   padding: 0 4rem;
   transform: translateY(100%);
   transition: 0.5s ease;
+  align-items: center;
 }
 
 .content{
