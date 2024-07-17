@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.light {
+  --img-bg-color: rgb(212, 233, 252);
+  --nav-bg-color: rgb(230, 243, 255);
+  /* --bg-color: rgb(221, 246, 255); */
+  /* --bg-color: rgb(197, 240, 255); */
+  --bg-color: rgb(209, 241, 252);
+  --second-bg-color:rgb(240, 248, 255);
+  --text-color: rgb(16, 16, 16);
+}
+
+.dark {
+  --img-bg-color: #5c505078;
+  --nav-bg-color: #040b14;
+  --bg-color: #1b1f24;
+  --second-bg-color: #22282f;
+  --text-color: rgb(240, 248, 255);
+}
+
+.blue{
+  --primary-color: #3170d5;
+  --secondary-color: rgba(49, 112, 213, 0.3);
+}
+
+.skyblue{
+  --primary-color: rgb(0, 238, 255);
+  --secondary-color: rgba(0, 238, 255, 0.25);
+}
+
+.red{
+  --primary-color: #ff004f;
+  --secondary-color: rgba(253, 108, 108, 0.3);
+}
+
+.yellow{
+  --primary-color: #ffc107;
+  --secondary-color: rgba(255, 193, 8, 0.3);
+}
+
+.purple{
+  --primary-color: #c969fd;
+    --secondary-color: rgba(201, 105, 253, 0.4);
+}
+
+.green{
+  --primary-color: #37b182;
+    --secondary-color: rgba(55, 177, 130, 0.3);
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera */
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
