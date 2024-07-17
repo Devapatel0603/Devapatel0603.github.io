@@ -31,7 +31,7 @@ const Home = () => {
                     <img
                         src="/main.png"
                         alt="Dev Image"
-                        className="max-[550px]:w-[50%] max-[315px]:w-[90%]"
+                        className="max-[550px]:w-[63%] max-[315px]:w-[90%]"
                     />
                 </div>
             </section>
