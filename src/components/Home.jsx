@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             <section
-                className="home flex py-[30px] justify-between items-center max-[715px]:block w-full tracking-[0.6px] max-[715px]:pt-[100px] max-[715px]:pb-[30px]"
+                className="home min-h-[100dvh] flex py-[30px] justify-between items-center max-[715px]:block w-full tracking-[0.6px] max-[715px]:pt-[100px] max-[715px]:pb-[30px]"
                 id="home"
             >
                 <div className="hello w-[50%] pl-[10%] max-[715px]:w-[100%] max-[715px]:pl-[20%] max-[315px]:pl-[5%] max-[335px]:pl-[7%] max-[400px]:pl-[10%] max-[500px]:pl-[15%] max-[715px]:pb-[25px]">
