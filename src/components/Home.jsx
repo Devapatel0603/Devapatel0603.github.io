@@ -28,11 +28,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="image w-[50%] flex justify-center items-center text-left flex-col max-[715px]:w-[100%]">
-                    <img
-                        src="/main.png"
-                        alt="Dev Image"
-                        className="max-[550px]:w-[63%] max-[315px]:w-[90%]"
-                    />
+                    
                 </div>
             </section>
         </>
