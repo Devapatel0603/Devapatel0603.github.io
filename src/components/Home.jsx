@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             <section
-                className="home min-h-[100dvh] flex py-[30px] justify-between items-center max-[715px]:block w-full tracking-[0.6px] max-[715px]:pt-[100px] max-[715px]:pb-[30px]"
+                className="home min-h-[100dvh] flex py-[30px] items-center max-[715px]:block w-full tracking-[0.6px] max-[715px]:pt-[90%] max-[715px]:pb-[30px]"
                 id="home"
             >
                 <div className="hello w-[50%] pl-[10%] max-[715px]:w-[100%] max-[715px]:pl-[20%] max-[315px]:pl-[5%] max-[335px]:pl-[7%] max-[400px]:pl-[10%] max-[500px]:pl-[15%] max-[715px]:pb-[25px]">
@@ -27,13 +27,13 @@ const Home = () => {
                         </span>
                     </p>
                 </div>
-                <div className="image w-[50%] flex justify-center items-center text-left flex-col max-[715px]:w-[100%]">
+                {/* <div className="image w-[50%] flex justify-center items-center text-left flex-col max-[715px]:w-[100%]">
                      <img
                         src="/main.png"
                         alt="Dev Image"
-                        className="w-[25%] max-[550px]:w-[63%] max-[315px]:w-[90%]"
+                        className="w-[40%] max-[550px]:w-[63%] max-[315px]:w-[90%]"
                     />
-                </div>
+                </div> */}
             </section>
         </>
     );
