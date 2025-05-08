@@ -12,6 +12,7 @@ import {
     Skills,
     Sun,
     User,
+    Fiverr
 } from "./Icons";
 import Footer from "./Footer";
 import { Context } from "../context/Context";
@@ -103,6 +104,13 @@ const Navbar = () => {
                             className="duration-[0.4s] w-[36px] h-[36px] rounded-[50%] leading-[37px] flex justify-center items-center text-[var(--primary-color)] border-[2px] border-[var(--img-bg-color)] hover:bg-[var(--primary-color)] hover:text-[var(--nav-bg-color)] hover:shadow-[0_0_10px_var(--primary-color)] shadow-none"
                         >
                             <Github />
+                        </a>
+                        <a
+                            href="https://www.fiverr.com/devapatel06"
+                            target="_blank"
+                            className="duration-[0.4s] w-[36px] h-[36px] rounded-[50%] leading-[37px] flex justify-center items-center text-[var(--primary-color)] border-[2px] border-[var(--img-bg-color)] hover:bg-[var(--primary-color)] hover:text-[var(--nav-bg-color)] hover:shadow-[0_0_10px_var(--primary-color)] shadow-none"
+                        >
+                            <Fiverr />
                         </a>
                         <a
                             href="https://linkedin.com/in/devpatel0603"
