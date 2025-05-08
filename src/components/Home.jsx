@@ -19,7 +19,7 @@ const Home = () => {
                         I am a{" "}
                         <span className="auto-input text-[var(--primary-color)]">
                             <ReactTyped
-                                strings={["Web Developer", "Student"]}
+                                strings={["Software Developer", "Freelancer"]}
                                 typeSpeed={60}
                                 backSpeed={60}
                                 loop
